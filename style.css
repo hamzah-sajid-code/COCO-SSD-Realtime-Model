@@ -1,0 +1,117 @@
+body{
+    background-size: cover;
+}
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+canvas
+{
+    margin-top: 75px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px black;
+}
+.footer{
+    color: white;
+    position: fixed;
+    width: 25%;
+    bottom: 0px;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+    font-size: larger;
+    animation: rainbow-bg 2.5s linear;
+	animation-iteration-count: infinite;
+    margin-left: 0px;
+}
+.btna {
+    background-color: white;
+    width: 35%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    animation: rainbow 2.5s linear;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+@keyframes rainbow {
+
+    100%,
+    0% { border:2px solid rgb(255, 0, 0);}
+    8% { border:2px solid rgb(255, 127, 0);}
+    16% {border:2px solid rgb(255, 255, 0);}
+    25% {border:2px solid rgb(127, 255, 0);}
+    33% {border:2px solid rgb(0, 255, 0);}
+    41% {border:2px solid rgb(0, 255, 127);}
+    50% {border:2px solid rgb(0, 255, 255);}
+    58% {border:2px solid rgb(0, 127, 255);}
+    66% {border:2px solid rgb(0, 0, 255);}
+    75% {border:2px solid rgb(127, 0, 255);}
+    83% {border:2px solid rgb(255, 0, 255);}
+    91% {border:2px solid rgb(255, 0, 127);}
+}
+.footer{
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+    font-size: larger;
+    animation: rainbow-bg 2.5s linear;
+	animation-iteration-count: infinite;
+    margin-left: 0px;
+}
+@keyframes rainbow-bg{
+    100%,0%{
+        background-color: rgb(255,0,0);
+    }
+    8%{
+        background-color: rgb(255,127,0);
+    }
+    16%{
+        background-color: rgb(255,255,0);
+    }
+    25%{
+        background-color: rgb(127,255,0);
+    }
+    33%{
+        background-color: rgb(0,255,0);
+    }
+    41%{
+        background-color: rgb(0,255,127);
+    }
+    50%{
+        background-color: rgb(0,255,255);
+    }
+    58%{
+        background-color: rgb(0,127,255);
+    }
+    66%{
+        background-color: rgb(0,0,255);
+    }
+    75%{
+        background-color: rgb(127,0,255);
+    }
+    83%{
+        background-color: rgb(255,0,255);
+    }
+    91%{
+        background-color: rgb(255,0,127);
+    }
+}
+.backbtn{
+    float: left;
+}
